@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice JS with HTML</title>
+    <link rel = "icon" href="asset/1667532213675.jpg">
+    <style>
+        .flex-container{
+            display: flex;
+            background-color: paleturquoise;
+            flex-direction: column;
+        }
+        .flex-container > div{
+            background-color: azure;
+            font-size: 30px;
+            margin: 10px;
+        }
+        .grid-containers {
+            display:grid;
+            grid-template-columns: auto auto auto;
+        }
+        .grid-item {
+            background-color: rgba(red, green, blue, alpha);
+            border: 1px solid rgba(red, green, blue, alpha);
+            padding: 20px;
+            text-align: center;
+        }
+
+
+        /* *{
+            font-family: cursive;
+        } */
+        .hello{
+            padding-left: 20%;
+        }
+        p.padTop{
+            padding-top: 10%;
+            padding-bottom: 10%;
+        }
+        #idtag{
+            text-shadow:5cm;
+        }
+    </style>
+    <!-- <script src = "JS\Sample.js"></script> -->
+    <script src = 'JS\jsinter.js'></script>
+    <script src = 'JS\linkforhtml.js'></script>
+    <!-- <h1 id = "hello"></h1> -->
+    <link rel = "stylesheet" href = "asset\style.css">
+</head>
+<body style = "background-color: dimgray;"> -->
+    <p>which year you are in</p>
+    <p id = "hello">I am in my 1st year i am studying AI&DS dept</p>
+    <button type="button" onclick = "myfunfor1st()">In 1st year</button>
+    <button type="button" onclick = "myfunfor2nd()">In 2nd year</button>
+    <button type="button" onclick = "myfunfor3rd()">In 3rd year</button>
+    <button type="button" onclick = "myfunfor4th(  )">In 4th year</button>
+    <h1 style = 'color:red'>Heading 1</h1>
+    <h2 style = "position: relative; left: 50; font-family:cursive;" class = "hello">Heading 2</h2>
+    <h3 class="padTop">Heading 3</h3>
+    <h4 class = "hello">Heading 4</h4>
+    <h5 style = "box-shadow: 0cqmax;">Heading 5</h5>
+    <h6 class = "padTop">Heading 6</h6>
+</body>
+<body>
+    <div>
+        <p class = "padTop">
+            here we can see <span>usage of tags:</span> <br>
+            <i>Italic font => i tag</i><br>
+            <b>Bold font => b tag</b><br>
+            <p>paragraph => p tag</p><br>
+            <u>Underlined font => u tag</u><br>
+            <div>
+                <ul class = "hello">
+                    <li>For unordered list => ul tags</li>
+                    <li>If li tag was not provided then all the list will be in a straight line</li>
+                </ul>
+                <div class="flex-container">
+                    <div>home</div>
+                    <div>help</div>
+                </div>
+            </div>
+            <div class="grid-containers">
+                <div class="grid-item">hello</div>
+                <div class="grid-item">hi</div>
+            </div>
+            <div>
+                <ol id = "idtag">
+                    <li>ol tag is same as ul</li>
+                    <li>ol means ordered list like numbers alphabets etc.,</li>
+                    <li>these tags has parameters like type and start</li>
+                    <li>type => 1 or I or i or A or a</li>
+                    <li>start means from which count it must start</li>
+                </ol>
+                <img src = "asset/IMG_7694.JPG" alt = "myimage" width = '300' height="200">
+            </div>
+        </p>
+    </div>
+</body>
+</html>
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Resume</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <h2>Web Developer</h2>
+  </header>
+  <div class="moving-light">
+    <div class="content">
+      <h3>About Me</h3>
+      <p>
+        Replace this text with a brief introduction about yourself.
+      </p>
+      <h3>Experience</h3>
+      <ul>
+        <li>
+          <strong>Job Title</strong> - Company Name, Start Date - End Date
+          <p>Replace this text with your job description and responsibilities.</p>
+        </li>
+        Add more experience items as needed
+      </ul>
+      <h3>Education</h3>
+      <ul>
+        <li>
+          <strong>Degree</strong> - University Name, Graduation Year
+          <p>Replace this text with details about your education.</p>
+        </li>
+        Add more education items as needed
+      </ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
