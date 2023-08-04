@@ -1,0 +1,39 @@
+/* Add your custom styles here */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.background-image {
+  /* Add background image styles */
+}
+
+.details-section {
+  /* Add styles for the details section */
+}
+
+.details-content {
+  /* Add styles for the details content */
+}
+
+.name-box {
+  /* Add styles for the name box */
+}
+
+.social-icons {
+  /* Add styles for the social media icons */
+}
+
+.social-icons li {
+  list-style: none;
+  display: inline;
+  margin-right: 10px;
+}
+
+hr {
+  /* Add styles for the horizontal rule */
+}
