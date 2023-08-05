@@ -1,0 +1,108 @@
+/* https://images.unsplash.com/photo-1617042375876-a13e36732a04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDE4fHxkZXZlbG9wZXJ8ZW58MHx8fHwxNjY1NTk2Nzgx&ixlib=rb-1.2.1&q=80&w=2000' */ */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .background-image {
+    background-image: url('https://images.unsplash.com/photo-1617042375876-a13e36732a04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDE4fHxkZXZlbG9wZXJ8ZW58MHx8fHwxNjY1NTk2Nzgx&ixlib=rb-1.2.1&q=80&w=2000');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Add position: relative to allow positioning the .details-section */
+  }
+  
+  .details-section {
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+    padding: 20px;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url('path/to/your-profile-photo.jpg'); /* Add your profile photo URL */
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+  }
+  
+  .details-content {
+    text-align: center;
+  }
+  
+  .details-content h2 {
+    font-size: 24px;
+    color: #333333;
+    margin: 0;
+  }
+  
+  .details-content p {
+    font-size: 16px;
+    color: #555555;
+  }
+  
+  /* Neon Light Animation */
+  .name-box {
+    position: relative; /* Add position: relative to allow positioning the ::before and ::after pseudo-elements */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .name-box::before, .name-box::after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    z-index: -1;
+    border-radius: 25px;
+  }
+  
+  .name-box::before {
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
+    animation: neon-rotate 2s linear infinite;
+  }
+  
+  .name-box::after {
+    background-color: rgba(0, 255, 255, 0.8);
+    filter: blur(20px); /* Adjust the blur value as needed for a softer glow */
+    opacity: 0.5; /* Adjust the opacity to control the brightness of the glow */
+  }
+  
+  /* Neon Light Animation */
+  @keyframes neon-rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  h1 {
+    font-size: 48px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  

@@ -1,17 +1,9 @@
-/* Add your custom styles here */
+/* 'https://images.unsplash.com/photo-1617042375876-a13e36732a04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDE4fHxkZXZlbG9wZXJ8ZW58MHx8fHwxNjY1NTk2Nzgx&ixlib=rb-1.2.1&q=80&w=2000' */
+
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-}
-
-.App {
-  text-align: center;
-}
-
-/* body {
-  margin: 0;
   padding: 0;
-} */
+}
 
 .background-image {
   background-image: url('https://images.unsplash.com/photo-1617042375876-a13e36732a04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDE4fHxkZXZlbG9wZXJ8ZW58MHx8fHwxNjY1NTk2Nzgx&ixlib=rb-1.2.1&q=80&w=2000');
@@ -152,5 +144,4 @@ h1 {
   color: #555555;
   text-decoration: none;
 }
-
 

@@ -44,7 +44,7 @@ function App() {
             <hr />
             <h4>Full Stack Workshop:</h4>
             <p style={{ position: "unset" }}>here is the practiced file page in which we worked out with HTML, CSS, JS.
-              <a href="linkwithjs.html"><i>click here to view it</i></a>
+              <a href="aswin/linkwithjs.html"><i>click here to view it</i></a>
             </p>
           </div>
         </div>
